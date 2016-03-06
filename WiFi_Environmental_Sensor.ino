@@ -1,13 +1,12 @@
 #include <ESP8266WiFi.h>
-#include <Wire.h>
 #include <BME280_MOD-1022.h>
+#include <Wire.h>
+#include "consts.h"
 
 #define LED_PIN 12
 #define I2C_SDA_PIN 13
 #define I2C_SCL_PIN 14
 
-const char* ssid = "*****";
-const char* password = "*****";
 WiFiServer server(80);
 
 void setup_BME280() {
