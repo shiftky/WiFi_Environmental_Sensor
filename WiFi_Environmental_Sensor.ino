@@ -99,7 +99,7 @@ void loop() {
   s += "<h2>B4ME280</h2>\r\n";
   s += "temp : " + String(tempMostAccurate) + " [℃]<br>\r\n";
   s += "humidity : " + String(humidityMostAccurate) + " [%]<br>\r\n";
-  s += "pressure : " + String(pressureMostAccurate) + " [Pa]<br>\r\n";
+  s += "pressure : " + String(pressureMostAccurate) + " [hPa]<br>\r\n";
   s += "</html>\r\n";
 
   client.print(s);
